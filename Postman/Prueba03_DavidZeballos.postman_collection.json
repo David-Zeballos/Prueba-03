@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "590f719a-35c3-4d58-8d15-3cdc96f66e4e",
+		"name": "Prueba03_DavidZeballos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetCustomers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5150/api/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5150",
+					"path": [
+						"api",
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDishes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5150/api/dishes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5150",
+					"path": [
+						"api",
+						"dishes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
