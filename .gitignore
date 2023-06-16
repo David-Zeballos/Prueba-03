@@ -1,0 +1,35 @@
+# Archivos y carpetas específicos del proyecto a excluir del control de versiones
+bin/
+obj/
+*.dll
+*.exe
+*.sqlite
+
+# Archivos generados por Visual Studio
+.vs/
+*.sln
+*.csproj.user
+*.userprefs
+*_i.c
+*_p.c
+*.pidb
+*.log
+*.tlog
+*.cache
+*.VC.db
+*.VC.opendb
+
+# Archivos generados por Rider
+.idea/
+
+# Archivos de dependencias y paquetes NuGet
+## .NET Core
+*.nuget.props
+*.nuget.targets
+.project.lock.json
+.bundleconfig.json
+
+# Archivos de compilación
+*_ms.vcxproj
+*_ms.vcxproj.filters
+*_ms.vcxproj.user
