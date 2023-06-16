@@ -10,7 +10,7 @@ Instrucciones de Instalación
 Siga los pasos a continuación para ejecutar el programa y usar Postman correctamente:
 
 1. Clone el repositorio en su máquina local:
-   git clone https://github.com/David-Zeballos/Practica-03
+   git clone https://github.com/David-Zeballos/Prueba-03
 
 2. Restaure las dependencias y compile el proyecto:
    dotnet restore
@@ -28,7 +28,7 @@ Siga los pasos a continuación para ejecutar el programa y usar Postman correcta
 5. Inicie la aplicación:
    dotnet run
 
-La aplicación se ejecutará en http://localhost:5136.
+La aplicación se ejecutará en http://localhost:5150.
 
 Para probar la API con Postman, la aplicación deberá primero ser inicializada (paso 5).
 Dentro de la carpeta 'Postman' se encuentra el importable que contiene las URL que se utilizaron para probar el programa.
