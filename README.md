@@ -22,6 +22,7 @@ Siga los pasos a continuación para ejecutar el programa y usar Postman correcta
 4. Ejecute las migraciones de la base de datos:
    dotnet ef migrations add InitialCreate
    dotnet ef database update
+   (En caso de que esto no funcione, remplace "dotnet ef" por "dotnet-ef" dentro de los comandos)
 
 5. Inicie la aplicación:
    dotnet run
