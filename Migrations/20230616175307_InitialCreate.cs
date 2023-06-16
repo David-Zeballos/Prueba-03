@@ -19,6 +19,7 @@ namespace RestaurantApp.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", nullable: true),
                     Rut = table.Column<string>(type: "TEXT", nullable: true),
+                    Faculty = table.Column<string>(type: "TEXT", nullable: false),
                     Amount = table.Column<decimal>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>

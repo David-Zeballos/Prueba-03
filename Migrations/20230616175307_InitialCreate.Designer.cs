@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace RestaurantApp.Migrations
 {
     [DbContext(typeof(RestaurantContext))]
-    [Migration("20230616174313_InitialCreate")]
+    [Migration("20230616175307_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -26,6 +26,10 @@ namespace RestaurantApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<decimal>("Amount")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Faculty")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")

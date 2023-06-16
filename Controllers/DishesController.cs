@@ -26,6 +26,7 @@ public class DishesController : ControllerBase
                 {
                     o.Customer.Id,
                     o.Customer.Name,
+                    o.Customer.Faculty,
                     CreatedAt = o.Date,
                     UpdatedAt = o.Date
                 })
