@@ -1,7 +1,3 @@
-Biblioteca - Documentación para el Cliente
-
-Este proyecto es una aplicación de gestión de bibliotecas. Proporciona una API para realizar operaciones relacionadas con usuarios, libros y reservas.
-
 Requisitos Previos
 
 Antes de comenzar, asegúrese de tener instalados los siguientes requisitos en su sistema:
@@ -22,10 +18,6 @@ Siga los pasos a continuación para ejecutar el programa y usar Postman correcta
 
 3. Verificar la instalación de packetes de Entity Framework Core:
    dotnet tool install --global dotnet-ef
-   dotnet add package Microsoft.EntityFrameworkCore
-   dotnet add package Microsoft.EntityFrameworkCore.Sqlite
-   dotnet add package Microsoft.EntityFrameworkCore.Tools
-   dotnet add package Microsoft.EntityFrameworkCore.Design
 
 4. Ejecute las migraciones de la base de datos:
    dotnet ef migrations add InitialCreate

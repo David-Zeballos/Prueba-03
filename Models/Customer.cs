@@ -4,4 +4,5 @@ public class Customer
     public string? Name { get; set; }
     public string? Rut { get; set; }
     public List<Order> Orders { get; set; }
+    public decimal Amount { get; set; }
 }

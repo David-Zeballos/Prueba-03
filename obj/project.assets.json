@@ -1753,19 +1753,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Estudiante\\.nuget\\packages\\": {}
+    "C:\\Users\\Zavishy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Estudiante\\Documents\\P03_DavidZeballos\\RestaurantApp\\RestaurantApp.csproj",
+      "projectUniqueName": "G:\\Programming\\Prueba03_DavidZeballos\\Prueba-03\\RestaurantApp.csproj",
       "projectName": "RestaurantApp",
-      "projectPath": "C:\\Users\\Estudiante\\Documents\\P03_DavidZeballos\\RestaurantApp\\RestaurantApp.csproj",
-      "packagesPath": "C:\\Users\\Estudiante\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Estudiante\\Documents\\P03_DavidZeballos\\RestaurantApp\\obj\\",
+      "projectPath": "G:\\Programming\\Prueba03_DavidZeballos\\Prueba-03\\RestaurantApp.csproj",
+      "packagesPath": "C:\\Users\\Zavishy\\.nuget\\packages\\",
+      "outputPath": "G:\\Programming\\Prueba03_DavidZeballos\\Prueba-03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Estudiante\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Zavishy\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
