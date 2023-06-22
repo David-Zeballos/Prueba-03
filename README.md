@@ -18,6 +18,9 @@ Siga los pasos a continuación para ejecutar el programa y usar Postman correcta
 
 3. Verificar la instalación de packetes de Entity Framework Core:
    `dotnet tool install --global dotnet-ef`
+   (En caso de que no funcione, instalarlo de forma local)
+   `dotnet new tool-manifest`
+   `dotnet tool install --local dotnet-ef`
 
 4. Ejecute las migraciones de la base de datos:
    `dotnet ef database update 0`
